@@ -23,7 +23,9 @@ export default class ListItem extends React.Component {
     return (
       // set style to style defined above
       // define onClick action
-      <li style={style} onClick={this.toggleDone.bind(this)}>{this.props.name}</li>
+      <li className="list-group-item"
+      style={style} 
+      onClick={this.toggleDone.bind(this)}>{this.props.name}</li>
     );
   }
 };

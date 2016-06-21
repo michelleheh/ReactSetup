@@ -6,8 +6,8 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        Hello World! To Do List!
-        // pass in list as props for ToDoList component
+        <h2>Hello World! To Do List!</h2>
+        {/*pass in list as props for ToDoList component*/}
         <ToDoList list={['milk', 'juice', 'eggs']} />
       </div>
     );

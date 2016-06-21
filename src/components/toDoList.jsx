@@ -13,11 +13,11 @@ export default class ToDoList extends React.Component {
   render() {
     return (
       <div>
-        <h1>My name is {this.state.name}</h1>
+        <h3>My name is {this.state.name}</h3>
         <ul>
-          // map each item in list to ListItem component
+          {/* map each item in list to ListItem component */}
           {this.props.list.map((item) => {
-            // pass in item name as props
+            {/* pass in item name as props */}
             return <ListItem name={item}/>
           })}
         </ul>
