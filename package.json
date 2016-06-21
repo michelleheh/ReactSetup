@@ -2,7 +2,7 @@
   "name": "reactsetup",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "dependencies": {
     "react": "^15.1.0",
     "react-dom": "^15.1.0"
@@ -15,7 +15,8 @@
     "webpack": "^1.13.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors"
   },
   "author": "Michelle He",
   "license": "ISC"
